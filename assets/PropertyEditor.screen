@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="304" y="192" width="305" height="305" measuredWidth="305" measuredHeight="305"/>
+  <widgets xsi:type="model:Group" id="2" x="314" y="202" width="285" height="71" text="Именование" measuredWidth="285" measuredHeight="71">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="324" y="219" text="*Имя" measuredWidth="35" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="324" y="241" text="*Имя в базе" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="5" x="408" y="241" width="181" text="Property" measuredWidth="181" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="6" x="408" y="219" width="181" text="Property" measuredWidth="181" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="7" x="314" y="280" width="285" height="209" text="Параметры" measuredWidth="285" measuredHeight="209">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="324" y="297" text="*Тип свойства" measuredWidth="84" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="9" x="324" y="319" width="141" text="Дата" measuredWidth="141" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="11" x="323" y="352" text="[x] Обязательное&#xA;[ ] Уникальное&#xA;~[ ] Разрешить редактирование~&#xA;~[x] Загружать значение сразу~&#xA;[] Отображать в форме списка&#xA;[] Отображать в диалоге поиска" measuredWidth="195" measuredHeight="136" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="195" height="22" text="[x] Обязательное"/>
+    <items x="0" y="24" width="195" height="22" text="[ ] Уникальное"/>
+    <items x="0" y="46" width="195" height="22" text="~[ ] Разрешить редактирование~"/>
+    <items x="0" y="68" width="195" height="22" text="~[x] Загружать значение сразу~"/>
+    <items x="0" y="90" width="195" height="22" text="[] Отображать в форме списка"/>
+    <items x="0" y="112" width="195" height="22" text="[] Отображать в диалоге поиска"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="472" y="297" text="*Тип контрола" measuredWidth="87" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="13" x="474" y="319" width="115" text="Редактор даты" measuredWidth="115" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="16" y="8" width="729" height="569" text="Решение конфликтов" measuredWidth="729" measuredHeight="569" minimizeButton="true" maximizeButton="true"/>
+  <widgets xsi:type="model:Button" id="4" x="669" y="540" text="Отмена" measuredWidth="62" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="9" x="16" y="27" width="201" height="502" text="Databook1&#xA;-{alarm}{new}%(color:red)Databook.mtd%&#xA;-{alarm}{new}%(bgcolor:gray)ServerHandlers.cs%&#xA;-{alarm}{new}%(color:red)OtherHandlers.cs%&#xA;-{alarm}{new}%(color:red)Resources.resx%&#xA;Task1&#xA;-{alarm}{new}%(color:red)Task1.mtd%&#xA;-{alarm}{new}%(color:red)Scheme.xml%" measuredWidth="201" measuredHeight="502" verticalScrollbar="true">
+    <items x="0" y="5" width="184" height="21" text="Databook1"/>
+    <items x="0" y="26" width="184" height="21" text="-{alarm}{new}%(color:red)Databook.mtd%"/>
+    <items x="0" y="47" width="184" height="21" text="-{alarm}{new}%(bgcolor:gray)ServerHandlers.cs%"/>
+    <items x="0" y="68" width="184" height="21" text="-{alarm}{new}%(color:red)OtherHandlers.cs%"/>
+    <items x="0" y="89" width="184" height="21" text="-{alarm}{new}%(color:red)Resources.resx%"/>
+    <items x="0" y="110" width="184" height="21" text="Task1"/>
+    <items x="0" y="131" width="184" height="21" text="-{alarm}{new}%(color:red)Task1.mtd%"/>
+    <items x="0" y="152" width="184" height="21" text="-{alarm}{new}%(color:red)Scheme.xml%"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="14" x="16" y="528" width="729" measuredWidth="729" measuredHeight="6"/>
+  <widgets xsi:type="model:Button" id="25" x="592" y="540" text="Принять" measuredWidth="67" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="31" x="62" y="307" text="Список&#xD;&#xA;конфликтов" measuredWidth="84" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="35" x="216" y="27" width="257" height="302" text="using System;&#xD;&#xA;&#xD;&#xA;namespace Foo&#xD;&#xA;{&#xD;&#xA;  %(color:green)public void Handler1(Param1 param)%&#xD;&#xA;  %(color:green){%&#xD;&#xA;    %(color:green)//code%&#xD;&#xA;  %(color:green)}%&#xD;&#xA;%(bgcolor:yellow)__________________%&#xD;&#xA;%(bgcolor:yellow)__________________%&#xD;&#xA;%(bgcolor:yellow)__________________%&#xD;&#xA;%(bgcolor:yellow)__________________%&#xD;&#xA;}" measuredWidth="257" measuredHeight="302">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="36" x="472" y="27" width="273" height="302" text="using System;&#xA;&#xA;namespace Foo&#xA;{&#xA;%(bgcolor:yellow)__________________%&#xA;%(bgcolor:yellow)__________________%&#xA;%(bgcolor:yellow)__________________%&#xA;%(bgcolor:yellow)__________________%&#xA;  %(color:green)public void Handler2(Param2 param)%&#xA;  %(color:green){%&#xA;    %(color:green)//code%&#xA;  %(color:green)}%&#xA;}" measuredWidth="273" measuredHeight="302">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="37" x="216" y="328" width="529" height="201" text="using System;&#xA;&#xA;namespace Foo&#xA;{&#xA;  %(color:green)public void Handler1(Param1 param)%&#xA;  %(color:green){%&#xA;    %(color:green)//code%&#xA;  %(color:green)}%&#xA;  %(color:green)public void Handler2(Param2 param)%&#xA;  %(color:green){%&#xA;    %(color:green)//code%&#xA;  %(color:green)}%}" measuredWidth="529" measuredHeight="201">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="29" x="368" y="184" text="Наши &#xD;&#xA;изменения" measuredWidth="77" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="30" x="504" y="227" text="Серверные&#xD;&#xA;изменения" measuredWidth="79" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="32" x="464" y="448" text="Итоговые&#xD;&#xA;изменения" measuredWidth="77" measuredHeight="44">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

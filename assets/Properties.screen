@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Panel" id="7" x="304" y="184" width="228" height="250" measuredWidth="228" measuredHeight="250" verticalScrollbar="true"/>
-  <widgets xsi:type="model:VLine" id="9" x="399" y="184" height="250" measuredWidth="6" measuredHeight="250"/>
-  <hRuler/>
-  <vRuler/>
-  <font size="12px"/>
-</model:Screen>

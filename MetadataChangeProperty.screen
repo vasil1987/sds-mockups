@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="16" y="8" width="729" height="569" text="Просмотр изменений" measuredWidth="729" measuredHeight="569" minimizeButton="true" maximizeButton="true"/>
+  <widgets xsi:type="model:Button" id="4" x="669" y="540" text="Отмена" measuredWidth="62" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="9" x="16" y="27" width="201" height="502" text="[x] Databook1&#xA;-{edit}{new}%(bgcolor:gray)Databook.mtd%&#xA;-{add}{new}%(color:green)ServerHandlers.cs%&#xA;-{minus}{new}%(color:red)OtherHandlers.cs%&#xA;-{edit}{new}%(color:green)Resources.resx%&#xA;[] Task1&#xA;-{edit}{new}%(color:green)Task1.mtd%&#xA;-{add}{new}%(color:green)SchemeV3.xml%" measuredWidth="201" measuredHeight="502" verticalScrollbar="true">
+    <items x="0" y="5" width="184" height="21" text="[x] Databook1"/>
+    <items x="0" y="26" width="184" height="21" text="-{edit}{new}%(bgcolor:gray)Databook.mtd%"/>
+    <items x="0" y="47" width="184" height="21" text="-{add}{new}%(color:green)ServerHandlers.cs%"/>
+    <items x="0" y="68" width="184" height="21" text="-{minus}{new}%(color:red)OtherHandlers.cs%"/>
+    <items x="0" y="89" width="184" height="21" text="-{edit}{new}%(color:green)Resources.resx%"/>
+    <items x="0" y="110" width="184" height="21" text="[] Task1"/>
+    <items x="0" y="131" width="184" height="21" text="-{edit}{new}%(color:green)Task1.mtd%"/>
+    <items x="0" y="152" width="184" height="21" text="-{add}{new}%(color:green)SchemeV3.xml%"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="14" x="16" y="528" width="729" measuredWidth="729" measuredHeight="6"/>
+  <widgets xsi:type="model:Tree" id="17" x="215" y="28" width="170" height="264" text="[-] Свойства&#xA;-{edit}%(color:green)Property1%&#xA;-{add}%(bgcolor:gray)Property2%&#xA;[-] Действия&#xA;-{edit}%(color:green)Action1%&#xA;-{edit}%(color:green)Action2%&#xA;-{minus}%(color:red)Action3%&#xA;[+] Авторизация&#xA;[-] Формы&#xA;-[-] {edit} %(color:green)Card%&#xA;-[+] {edit} %(color:green)Page1%&#xA;-[+] {minus} %(color:red)Page2%" measuredWidth="170" measuredHeight="264">
+    <items x="0" y="5" width="170" height="21" text="[-] Свойства"/>
+    <items x="0" y="26" width="170" height="21" text="-{edit}%(color:green)Property1%"/>
+    <items x="0" y="47" width="170" height="21" text="-{add}%(bgcolor:gray)Property2%"/>
+    <items x="0" y="68" width="170" height="21" text="[-] Действия"/>
+    <items x="0" y="89" width="170" height="21" text="-{edit}%(color:green)Action1%"/>
+    <items x="0" y="110" width="170" height="21" text="-{edit}%(color:green)Action2%"/>
+    <items x="0" y="131" width="170" height="21" text="-{minus}%(color:red)Action3%"/>
+    <items x="0" y="152" width="170" height="21" text="[+] Авторизация"/>
+    <items x="0" y="173" width="170" height="21" text="[-] Формы"/>
+    <items x="0" y="194" width="170" height="21" text="-[-] {edit} %(color:green)Card%"/>
+    <items x="0" y="215" width="170" height="21" text="-[+] {edit} %(color:green)Page1%"/>
+    <items x="0" y="236" width="170" height="21" text="-[+] {minus} %(color:red)Page2%"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="18" x="384" y="27" width="361" measuredWidth="361" measuredHeight="502">
+    <screen xsi:type="model:Screen" href="assets/PropertyEditor.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="174" y="56" width="361" height="502"/>
+      <widgets ref="2" x="185" y="72" width="336" height="116"/>
+      <widgets ref="3" x="196" y="107" width="40"/>
+      <widgets ref="4" x="196" y="144" width="83"/>
+      <widgets ref="5" x="295" y="144" width="213"/>
+      <widgets ref="6" x="295" y="107" width="213"/>
+      <widgets ref="7" x="185" y="200" width="336" height="343"/>
+      <widgets ref="8" x="196" y="236" width="98"/>
+      <widgets ref="9" x="196" y="272" width="166"/>
+      <widgets ref="11" x="195" y="319" width="230" height="223"/>
+      <widgets ref="12" x="371" y="236" width="101"/>
+      <widgets ref="13" x="374" y="272" width="136"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="19" x="216" y="289" width="169" height="240" measuredWidth="169" measuredHeight="240">
+    <screen xsi:type="model:Screen" href="assets/PropertyProperties.screen#/"/>
+    <overrides>
+      <widgets ref="7" x="216" y="132" width="169" height="240"/>
+      <widgets ref="10" x="292" y="181" width="78"/>
+      <widgets ref="11" x="295" y="228"/>
+      <widgets ref="12" x="292" y="132" width="78"/>
+      <widgets ref="13" x="292" y="158" width="78"/>
+      <widgets ref="15" x="295" y="252"/>
+      <widgets ref="16" x="295" y="275"/>
+      <widgets ref="17" x="292" y="205" width="78"/>
+      <widgets ref="18" x="295" y="299"/>
+      <widgets ref="19" x="295" y="322"/>
+      <widgets ref="20" x="225" y="132" width="33"/>
+      <widgets ref="21" x="225" y="158" width="67"/>
+      <widgets ref="22" x="225" y="181" width="58"/>
+      <widgets ref="23" x="225" y="205" width="63"/>
+      <widgets ref="24" x="222" y="228" width="60"/>
+      <widgets ref="25" x="222" y="252" width="68"/>
+      <widgets ref="26" x="222" y="275" width="63"/>
+      <widgets ref="27" x="221" y="299" width="69"/>
+      <widgets ref="28" x="221" y="322" width="69"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

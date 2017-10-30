@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="16" y="8" width="729" height="569" text="Решение конфликтов" measuredWidth="729" measuredHeight="569" minimizeButton="true" maximizeButton="true"/>
+  <widgets xsi:type="model:Button" id="4" x="669" y="540" text="Отмена" measuredWidth="62" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="9" x="16" y="27" width="201" height="502" text="Databook1&#xA;-{alarm}{new}%(bgcolor:gray)Databook.mtd%&#xA;-{alarm}{new}%(color:red)ServerHandlers.cs%&#xA;-{alarm}{new}%(color:red)OtherHandlers.cs%&#xA;-{alarm}{new}%(color:red)Resources.resx%&#xA;Task1&#xA;-{alarm}{new}%(color:red)Task1.mtd%&#xA;-{alarm}{new}%(color:red)Scheme.xml%" measuredWidth="201" measuredHeight="502" verticalScrollbar="true">
+    <items x="0" y="5" width="184" height="21" text="Databook1"/>
+    <items x="0" y="26" width="184" height="21" text="-{alarm}{new}%(bgcolor:gray)Databook.mtd%"/>
+    <items x="0" y="47" width="184" height="21" text="-{alarm}{new}%(color:red)ServerHandlers.cs%"/>
+    <items x="0" y="68" width="184" height="21" text="-{alarm}{new}%(color:red)OtherHandlers.cs%"/>
+    <items x="0" y="89" width="184" height="21" text="-{alarm}{new}%(color:red)Resources.resx%"/>
+    <items x="0" y="110" width="184" height="21" text="Task1"/>
+    <items x="0" y="131" width="184" height="21" text="-{alarm}{new}%(color:red)Task1.mtd%"/>
+    <items x="0" y="152" width="184" height="21" text="-{alarm}{new}%(color:red)Scheme.xml%"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="14" x="16" y="528" width="729" measuredWidth="729" measuredHeight="6"/>
+  <widgets xsi:type="model:Tree" id="18" x="216" y="27" width="137" height="286" text="Свойства&#xA;-[x] Property1&#xA;-[]&#xA;-[x] %(color:green)Property2%&#xA;-[] &#xA;Формы&#xA;-[x] [+] {edit} %(bgcolor:gray)Card%&#xA;-[x] [+] {add} %(color:green)Page1%&#xA;-[]" measuredWidth="137" measuredHeight="286">
+    <items x="0" y="5" width="137" height="21" text="Свойства"/>
+    <items x="0" y="26" width="137" height="21" text="-[x] Property1"/>
+    <items x="0" y="47" width="137" height="21" text="-[]"/>
+    <items x="0" y="68" width="137" height="21" text="-[x] %(color:green)Property2%"/>
+    <items x="0" y="89" width="137" height="21" text="-[] "/>
+    <items x="0" y="110" width="137" height="21" text="Формы"/>
+    <items x="0" y="131" width="137" height="21" text="-[x] [+] {edit} %(bgcolor:gray)Card%"/>
+    <items x="0" y="152" width="137" height="21" text="-[x] [+] {add} %(color:green)Page1%"/>
+    <items x="0" y="173" width="137" height="21" text="-[]"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="19" x="350" y="27" width="139" height="286" text="Свойства&#xA;-[] Property1&#xA;-[x] Property3&#xA;-[]&#xA;-[x] Property4&#xA;Формы&#xA;-[] [+] {edit} Card&#xA;-[] &#xA;-[x] [+] {add} %(color:green)Page2%" measuredWidth="139" measuredHeight="286">
+    <items x="0" y="5" width="139" height="21" text="Свойства"/>
+    <items x="0" y="26" width="139" height="21" text="-[] Property1"/>
+    <items x="0" y="47" width="139" height="21" text="-[x] Property3"/>
+    <items x="0" y="68" width="139" height="21" text="-[]"/>
+    <items x="0" y="89" width="139" height="21" text="-[x] Property4"/>
+    <items x="0" y="110" width="139" height="21" text="Формы"/>
+    <items x="0" y="131" width="139" height="21" text="-[] [+] {edit} Card"/>
+    <items x="0" y="152" width="139" height="21" text="-[] "/>
+    <items x="0" y="173" width="139" height="21" text="-[x] [+] {add} %(color:green)Page2%"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="20" x="216" y="312" width="137" height="217" text="Свойства&#xA;- Property1&#xA;- Property2&#xA;- Property4&#xA;Формы&#xA;-[+] {edit} %(bgcolor:gray)Card%&#xA;-[+] {add} Page1&#xA;-[+] {add} Page2" measuredWidth="137" measuredHeight="217">
+    <items x="0" y="5" width="137" height="21" text="Свойства"/>
+    <items x="0" y="26" width="137" height="21" text="- Property1"/>
+    <items x="0" y="47" width="137" height="21" text="- Property2"/>
+    <items x="0" y="68" width="137" height="21" text="- Property4"/>
+    <items x="0" y="89" width="137" height="21" text="Формы"/>
+    <items x="0" y="110" width="137" height="21" text="-[+] {edit} %(bgcolor:gray)Card%"/>
+    <items x="0" y="131" width="137" height="21" text="-[+] {add} Page1"/>
+    <items x="0" y="152" width="137" height="21" text="-[+] {add} Page2"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="25" x="592" y="540" text="Принять" measuredWidth="67" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="29" x="240" y="220" text="Наши &#xD;&#xA;изменения" measuredWidth="77" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="30" x="388" y="233" text="Серверные&#xD;&#xA;изменения" measuredWidth="79" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="31" x="62" y="307" text="Список&#xD;&#xA;конфликтов" measuredWidth="84" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="32" x="264" y="497" text="Итоговые&#xD;&#xA;изменения" measuredWidth="77" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="34" x="490" y="29" width="255" height="497" measuredWidth="255" measuredHeight="497">
+    <screen xsi:type="model:Screen" href="assets/Form.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="208" y="153" width="255" height="497"/>
+      <widgets ref="3" x="215" y="172" width="240" height="43"/>
+      <widgets ref="3/1" x="15" y="54" width="45"/>
+      <widgets ref="3/4" x="67" y="54" width="185"/>
+      <widgets ref="4" x="215" y="235" width="239" height="43"/>
+      <widgets ref="4/1" x="99" y="88" width="46"/>
+      <widgets ref="4/4" x="151" y="88" width="184"/>
+      <widgets ref="5" x="215" y="296" width="237" height="139"/>
+      <widgets ref="6" x="222" y="315" width="120" height="43"/>
+      <widgets ref="6/1" x="80" y="112" width="23"/>
+      <widgets ref="6/4" x="105" y="112" width="93"/>
+      <widgets ref="7" x="347" y="315" width="98" height="43"/>
+      <widgets ref="7/1" x="147" y="110" width="19"/>
+      <widgets ref="7/4" x="168" y="110" width="75"/>
+      <widgets ref="8" x="221" y="378" width="223" height="43"/>
+      <widgets ref="8/1" x="50" y="124" width="43"/>
+      <widgets ref="8/4" x="98" y="124" width="173"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Note" id="28" x="547" y="352" text="Превью итогового результата" measuredWidth="182" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="35" x="350" y="312" width="139" height="217" measuredWidth="139" measuredHeight="217">
+    <screen xsi:type="model:Screen" href="assets/GroupProperties.screen#/"/>
+    <overrides>
+      <widgets ref="7" x="226" y="121" width="139" height="217"/>
+      <widgets ref="10" x="286" y="186" width="64"/>
+      <widgets ref="11" x="285" y="143"/>
+      <widgets ref="12" x="288" y="120" width="64"/>
+      <widgets ref="15" x="285" y="164"/>
+      <widgets ref="20" x="233" y="120" width="27"/>
+      <widgets ref="22" x="231" y="186" width="55"/>
+      <widgets ref="24" x="230" y="143" width="52"/>
+      <widgets ref="25" x="231" y="164" width="48"/>
+      <widgets ref="26" x="231" y="207" width="42"/>
+      <widgets ref="30" x="285" y="207" width="65"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Note" id="33" x="392" y="497" text="Проперти&#xD;&#xA;грид" measuredWidth="72" measuredHeight="44">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

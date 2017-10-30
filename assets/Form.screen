@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="349" y="261" width="356" height="260" measuredWidth="356" measuredHeight="260"/>
+  <widgets xsi:type="model:Master" id="3" x="359" y="271" width="336" measuredWidth="336" measuredHeight="23">
+    <screen xsi:type="model:Screen" href="FormControl.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="156" y="152" width="64"/>
+      <widgets ref="4" x="229" y="152" width="261"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="359" y="304" width="334" measuredWidth="334" measuredHeight="23">
+    <screen xsi:type="model:Screen" href="FormControl.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="240" y="186" width="65"/>
+      <widgets ref="4" x="313" y="186" width="259"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="5" x="359" y="336" width="332" height="73" measuredWidth="332" measuredHeight="73"/>
+  <widgets xsi:type="model:Master" id="6" x="369" y="346" width="168" measuredWidth="168" measuredHeight="23">
+    <screen xsi:type="model:Screen" href="FormControl.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="221" y="210" width="33"/>
+      <widgets ref="4" x="257" y="210" width="131"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="7" x="544" y="346" width="137" measuredWidth="137" measuredHeight="23">
+    <screen xsi:type="model:Screen" href="FormControl.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="288" y="208" width="27"/>
+      <widgets ref="4" x="318" y="208" width="106"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="8" x="368" y="379" width="312" measuredWidth="312" measuredHeight="23">
+    <screen xsi:type="model:Screen" href="FormControl.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="191" y="222" width="61"/>
+      <widgets ref="4" x="259" y="222" width="243"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="16" y="8" width="729" height="569" text="Решение конфликтов" measuredWidth="729" measuredHeight="569" minimizeButton="true" maximizeButton="true"/>
+  <widgets xsi:type="model:Button" id="4" x="669" y="540" text="Отмена" measuredWidth="62" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="9" x="16" y="27" width="201" height="502" text="Databook1&#xA;-{alarm}{new}%(bgcolor:gray)Databook.mtd%&#xA;-{alarm}{new}%(color:red)ServerHandlers.cs%&#xA;-{alarm}{new}%(color:red)OtherHandlers.cs%&#xA;-{alarm}{new}%(color:red)Resources.resx%&#xA;Task1&#xA;-{alarm}{new}%(color:red)Task1.mtd%&#xA;-{alarm}{new}%(color:red)Scheme.xml%" measuredWidth="201" measuredHeight="502" verticalScrollbar="true">
+    <items x="0" y="5" width="184" height="21" text="Databook1"/>
+    <items x="0" y="26" width="184" height="21" text="-{alarm}{new}%(bgcolor:gray)Databook.mtd%"/>
+    <items x="0" y="47" width="184" height="21" text="-{alarm}{new}%(color:red)ServerHandlers.cs%"/>
+    <items x="0" y="68" width="184" height="21" text="-{alarm}{new}%(color:red)OtherHandlers.cs%"/>
+    <items x="0" y="89" width="184" height="21" text="-{alarm}{new}%(color:red)Resources.resx%"/>
+    <items x="0" y="110" width="184" height="21" text="Task1"/>
+    <items x="0" y="131" width="184" height="21" text="-{alarm}{new}%(color:red)Task1.mtd%"/>
+    <items x="0" y="152" width="184" height="21" text="-{alarm}{new}%(color:red)Scheme.xml%"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="14" x="16" y="528" width="729" measuredWidth="729" measuredHeight="6"/>
+  <widgets xsi:type="model:Tree" id="18" x="216" y="27" width="137" height="286" text="Свойства&#xA;-[x] Property1&#xA;-[] _Нет_&#xA;-[x] %(color:green)Property2%&#xA;-[] _Нет_&#xA;Формы&#xA;-[x] [+] {edit} %(color:green)Card%&#xA;--[x] [+] {add} %(color:green)Group1%&#xA;-[x] [+] {add} %(color:green)Page1%&#xA;-[] _Нет_&#xA;-[x] [+] {minus} %(color:red)Page3%" measuredWidth="137" measuredHeight="286">
+    <items x="0" y="5" width="137" height="21" text="Свойства"/>
+    <items x="0" y="26" width="137" height="21" text="-[x] Property1"/>
+    <items x="0" y="47" width="137" height="21" text="-[] _Нет_"/>
+    <items x="0" y="68" width="137" height="21" text="-[x] %(color:green)Property2%"/>
+    <items x="0" y="89" width="137" height="21" text="-[] _Нет_"/>
+    <items x="0" y="110" width="137" height="21" text="Формы"/>
+    <items x="0" y="131" width="137" height="21" text="-[x] [+] {edit} %(color:green)Card%"/>
+    <items x="0" y="152" width="137" height="21" text="--[x] [+] {add} %(color:green)Group1%"/>
+    <items x="0" y="173" width="137" height="21" text="-[x] [+] {add} %(color:green)Page1%"/>
+    <items x="0" y="194" width="137" height="21" text="-[] _Нет_"/>
+    <items x="0" y="215" width="137" height="21" text="-[x] [+] {minus} %(color:red)Page3%"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="19" x="350" y="27" width="139" height="286" text="Свойства&#xA;-[] Property1&#xA;-[x] Property3&#xA;-[] _Нет_&#xA;-[x] Property4&#xA;Формы&#xA;-[x] [+] {edit} Card&#xA;--[x] [+] {add} %(color:green)Group2%&#xA;-[] _Нет_&#xA;-[x] [+] {add} %(color:green)Page2%&#xA;-[] [+] {edit} %(color:green)Page3%" measuredWidth="139" measuredHeight="286">
+    <items x="0" y="5" width="139" height="21" text="Свойства"/>
+    <items x="0" y="26" width="139" height="21" text="-[] Property1"/>
+    <items x="0" y="47" width="139" height="21" text="-[x] Property3"/>
+    <items x="0" y="68" width="139" height="21" text="-[] _Нет_"/>
+    <items x="0" y="89" width="139" height="21" text="-[x] Property4"/>
+    <items x="0" y="110" width="139" height="21" text="Формы"/>
+    <items x="0" y="131" width="139" height="21" text="-[x] [+] {edit} Card"/>
+    <items x="0" y="152" width="139" height="21" text="--[x] [+] {add} %(color:green)Group2%"/>
+    <items x="0" y="173" width="139" height="21" text="-[] _Нет_"/>
+    <items x="0" y="194" width="139" height="21" text="-[x] [+] {add} %(color:green)Page2%"/>
+    <items x="0" y="215" width="139" height="21" text="-[] [+] {edit} %(color:green)Page3%"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="20" x="216" y="312" width="137" height="217" text="[+] Свойства&#xA;Формы&#xA;-[-] Card&#xA;--[-] Group1&#xA;---Control1&#xA;--[-]Group2&#xA;---Control1&#xA;-[+] Page1&#xA;-[+] Page2" measuredWidth="137" measuredHeight="217">
+    <items x="0" y="5" width="137" height="21" text="[+] Свойства"/>
+    <items x="0" y="26" width="137" height="21" text="Формы"/>
+    <items x="0" y="47" width="137" height="21" text="-[-] Card"/>
+    <items x="0" y="68" width="137" height="21" text="--[-] Group1"/>
+    <items x="0" y="89" width="137" height="21" text="---Control1"/>
+    <items x="0" y="110" width="137" height="21" text="--[-]Group2"/>
+    <items x="0" y="131" width="137" height="21" text="---Control1"/>
+    <items x="0" y="152" width="137" height="21" text="-[+] Page1"/>
+    <items x="0" y="173" width="137" height="21" text="-[+] Page2"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="25" x="592" y="540" text="Принять" measuredWidth="67" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="29" x="224" y="264" text="Наши &#xD;&#xA;изменения" measuredWidth="77" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="30" x="405" y="264" text="Серверные&#xD;&#xA;изменения" measuredWidth="79" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="31" x="62" y="307" text="Список&#xD;&#xA;конфликтов" measuredWidth="84" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="34" x="490" y="29" height="497" measuredWidth="255" measuredHeight="497">
+    <screen xsi:type="model:Screen" href="assets/Form.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="208" y="153" width="255" height="497"/>
+      <widgets ref="3" x="215" y="170" width="240" height="40"/>
+      <widgets ref="3/1" x="15" y="52" width="45"/>
+      <widgets ref="3/4" x="67" y="52" width="185"/>
+      <widgets ref="4" x="215" y="233" width="239" height="40"/>
+      <widgets ref="4/1" x="99" y="86" width="46"/>
+      <widgets ref="4/4" x="151" y="86" width="184"/>
+      <widgets ref="5" x="215" y="294" width="237" height="138"/>
+      <widgets ref="6" x="222" y="313" width="120" height="40"/>
+      <widgets ref="6/1" x="80" y="110" width="23"/>
+      <widgets ref="6/4" x="105" y="110" width="93"/>
+      <widgets ref="7" x="347" y="313" width="98" height="40"/>
+      <widgets ref="7/1" x="147" y="108" width="19"/>
+      <widgets ref="7/4" x="168" y="108" width="75"/>
+      <widgets ref="8" x="221" y="376" width="223" height="40"/>
+      <widgets ref="8/1" x="50" y="122" width="43"/>
+      <widgets ref="8/4" x="98" y="122" width="173"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Note" id="28" x="551" y="314" text="Превью итогового результата" measuredWidth="182" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="35" x="350" y="308" width="141" height="215" measuredWidth="141" measuredHeight="215">
+    <screen xsi:type="model:Screen" href="assets/GroupProperties.screen#/"/>
+    <overrides>
+      <widgets ref="7" x="216" y="94" width="141" height="215"/>
+      <widgets ref="10" x="277" y="158" width="65"/>
+      <widgets ref="11" x="276" y="116"/>
+      <widgets ref="12" x="279" y="93" width="65"/>
+      <widgets ref="15" x="276" y="137"/>
+      <widgets ref="20" x="223" y="93" width="27"/>
+      <widgets ref="22" x="221" y="158" width="56"/>
+      <widgets ref="24" x="220" y="116" width="53"/>
+      <widgets ref="25" x="221" y="137" width="49"/>
+      <widgets ref="26" x="221" y="179" width="43"/>
+      <widgets ref="30" x="276" y="179" width="66"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Note" id="33" x="292" y="494" text="Область &#xD;&#xA;редактирования&#xD;&#xA;итогового &#xD;&#xA;результата" measuredWidth="106" measuredHeight="74">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

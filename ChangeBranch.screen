@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Combo" id="2" x="200" y="368" width="124" text="Главная&#xD;&#xA;Фича1&#xD;&#xA;%(bgcolor:gray)Фича2%&#xD;&#xA;---------&#xD;&#xA;{add} Новая фича" measuredWidth="124" measuredHeight="107">
+    <font/>
+    <items x="0" y="0" width="123" height="22" text="Главная"/>
+    <items x="0" y="23" width="123" height="21" text="Фича1"/>
+    <items x="0" y="44" width="123" height="21" text="%(bgcolor:gray)Фича2%"/>
+    <items x="0" y="65" width="123" height="21" text="---------"/>
+    <items x="0" y="86" width="123" height="21" text="{add} Новая фича"/>
+  </widgets>
+  <widgets xsi:type="model:Alert" id="3" x="464" y="264" text="Переход к фиче&#xA;Зафиксируйте изменения&#xA;Зафиксировать,Отмена" measuredWidth="257" measuredHeight="132" icon="warning (large)">
+    <items x="15" y="93" width="106" height="24" text="Зафиксировать"/>
+    <items x="136" y="93" width="106" height="24" text="Отмена"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="4" x="323" y="328" width="142" height="96" text="Выбор" measuredWidth="142" measuredHeight="96" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Popup" id="5" x="16" y="24" text="{arrow-down} Зафиксировать, Ctrl+Z&#xA;{arrow-up} ~Отправить~, Ctrl+Y&#xA;{refresh} Получить изменения&#xA;{undo} Откатить&#xA;---&#xA;{busy-cursor} Изменения&#xA;{book} История&#xA;---&#xA;%(bgcolor:gray)Переключиться на фичу%, >&#xA;{share} Новая фича&#xA;~Удалить текущую фичу~&#xA;Завершить фичу" measuredWidth="223" measuredHeight="256">
+    <items x="0" y="2" width="223" height="23" text="{arrow-down} Зафиксировать, Ctrl+Z"/>
+    <items x="0" y="25" width="223" height="23" text="{arrow-up} ~Отправить~, Ctrl+Y"/>
+    <items x="0" y="48" width="223" height="23" text="{refresh} Получить изменения"/>
+    <items x="0" y="71" width="223" height="23" text="{undo} Откатить"/>
+    <items x="0" y="94" width="223" height="11" text="---"/>
+    <items x="0" y="105" width="223" height="23" text="{busy-cursor} Изменения"/>
+    <items x="0" y="128" width="223" height="23" text="{book} История"/>
+    <items x="0" y="151" width="223" height="11" text="---"/>
+    <items x="0" y="162" width="223" height="23" text="%(bgcolor:gray)Переключиться на фичу%, >"/>
+    <items x="0" y="185" width="223" height="23" text="{share} Новая фича"/>
+    <items x="0" y="208" width="223" height="23" text="~Удалить текущую фичу~"/>
+    <items x="0" y="231" width="223" height="23" text="Завершить фичу"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="6" x="238" y="184" text="Главная&#xD;&#xA;%(bgcolor:gray)Фича1%&#xD;&#xA;Фича2" measuredWidth="74" measuredHeight="73">
+    <items x="0" y="2" width="74" height="23" text="Главная"/>
+    <items x="0" y="25" width="74" height="23" text="%(bgcolor:gray)Фича1%"/>
+    <items x="0" y="48" width="74" height="23" text="Фича2"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="7" x="304" y="225" width="161" height="80" text="Выбор" measuredWidth="161" measuredHeight="80" left="false" right="true"/>
+  <widgets xsi:type="model:Window" id="8" x="144" y="544" width="345" height="113" text="Новая фича" measuredWidth="345" measuredHeight="113"/>
+  <widgets xsi:type="model:TextField" id="9" x="240" y="573" width="239" text="Фича3" measuredWidth="239" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="154" y="573" text="Имя фичи" measuredWidth="63" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="11" x="256" y="616" width="108" text="Создать" measuredWidth="108" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="12" x="376" y="616" width="103" text="Отмена" measuredWidth="103" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="13" x="89" y="226" width="66" height="311" text="Создание" measuredWidth="66" measuredHeight="311" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="14" x="225" y="465" width="32" height="72" text="Создание" measuredWidth="32" measuredHeight="72" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="15" x="409" y="400" width="112" height="145" measuredWidth="112" measuredHeight="145" left="false" right="true" direction="bottom"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
