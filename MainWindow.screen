@@ -13,13 +13,12 @@
     <items x="474" y="0" width="40" height="27" text="Окно"/>
     <items x="514" y="0" width="57" height="27" text="Справка"/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="5" x="265" y="191" text="{arrow-down}&#xD;&#xA;{arrow-down} Зафиксировать&#xD;&#xA;{arrow-up} Отправить&#xD;&#xA;{refresh} Получить&#xD;&#xA;{undo} Откатить" measuredWidth="113" measuredHeight="107">
+  <widgets xsi:type="model:Combo" id="5" x="265" y="191" text="{arrow-down} Зафиксировать&#xD;&#xA;{arrow-up} Отправить&#xD;&#xA;{refresh} Получить&#xD;&#xA;{undo} Откатить" measuredWidth="131" measuredHeight="86">
     <font/>
-    <items x="0" y="0" width="112" height="22" text="{arrow-down}"/>
-    <items x="0" y="23" width="112" height="21" text="{arrow-down} Зафиксировать"/>
-    <items x="0" y="44" width="112" height="21" text="{arrow-up} Отправить"/>
-    <items x="0" y="65" width="112" height="21" text="{refresh} Получить"/>
-    <items x="0" y="86" width="112" height="21" text="{undo} Откатить"/>
+    <items x="0" y="0" width="130" height="22" text="{arrow-down} Зафиксировать"/>
+    <items x="0" y="23" width="130" height="21" text="{arrow-up} Отправить"/>
+    <items x="0" y="44" width="130" height="21" text="{refresh} Получить"/>
+    <items x="0" y="65" width="130" height="21" text="{undo} Откатить"/>
   </widgets>
   <widgets xsi:type="model:Button" id="7" x="195" y="190" text="{save}" measuredWidth="36" measuredHeight="26">
     <font/>
@@ -27,7 +26,7 @@
   <widgets xsi:type="model:Button" id="8" x="230" y="190" text="{save}" measuredWidth="36" measuredHeight="26">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="9" x="377" y="191" width="124" text="Главная&#xD;&#xA;Фича1&#xD;&#xA;Фича2&#xD;&#xA;---------&#xD;&#xA;{add} Новая фича" measuredWidth="124" measuredHeight="107">
+  <widgets xsi:type="model:Combo" id="9" x="396" y="191" width="124" text="Главная&#xD;&#xA;Фича1&#xD;&#xA;Фича2&#xD;&#xA;---------&#xD;&#xA;{add} Новая фича" measuredWidth="124" measuredHeight="107">
     <font/>
     <items x="0" y="0" width="123" height="22" text="Главная"/>
     <items x="0" y="23" width="123" height="21" text="Фича1"/>
@@ -51,9 +50,6 @@
     <items x="0" y="185" width="223" height="23" text="{share} Новая фича"/>
     <items x="0" y="208" width="223" height="23" text="~Удалить текущую фичу~"/>
     <items x="0" y="231" width="223" height="23" text="Завершить фичу"/>
-  </widgets>
-  <widgets xsi:type="model:Note" id="12" x="216" y="360" text="По умолчанию&#xD;&#xA;делает: Фиксация->&#xD;&#xA;Получение ->&#xD;&#xA;Решение конфликтов->&#xD;&#xA;Отправка&#xD;&#xA;" measuredWidth="150" measuredHeight="89">
-    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>
